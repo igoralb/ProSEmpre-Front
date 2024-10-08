@@ -1,0 +1,67 @@
+#ferramentas {
+    margin-top: 80px;
+    margin-bottom:80px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#ferramentas div{
+    padding: 20px;
+}
+
+#pFerramentas1 {
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 500;
+ 
+
+}
+
+#pFerramentas1 span {
+    font-family: DM Sans Display;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 400;
+    color: #704EEA;
+}
+
+#cardFerramentas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 360px;
+    height: 400px;
+    background-color: #704EEA;
+    border-radius: 50px;
+}
+
+.card div {
+    margin: 22px;
+}
+
+.pFerramentas2 {
+    color: #ffff;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.pFerramentas2 span {
+    color: #FFC62F;
+    font-weight: 400;
+    font-style: italic;
+    font-family: DM Sans Display;
+
+}
+
+.pFerramentas3 {
+    color: #0A0430;
+    font-weight: 400;
+
+}

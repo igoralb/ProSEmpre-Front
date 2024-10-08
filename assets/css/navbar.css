@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+header {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: #fff;
+    padding: 20px;
+   
+
+}
+
+header img {
+    width: 200px;
+    height: 46px;
+}
+
+nav{
+
+    align-content: center;
+}
+
+nav ul {
+    padding: 15px 40px 15px 40px;
+    border-radius: 100px;
+    background-color: #704EEA;
+    
+    list-style-type: none;
+}
+
+nav ul li {
+    gap: 40px;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}

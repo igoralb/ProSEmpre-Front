@@ -1,0 +1,53 @@
+#leiaForum {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#leiaForum div {
+    padding: 20px;
+}
+
+#pLeiaForum1 {
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 500;
+
+
+}
+
+#pLeiaForum1 span {
+    font-family: DM Sans Display;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 400;
+    color: #704EEA;
+    gap: 30px;
+}
+
+#cardsLeiaForum {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.fotoLeiaForum {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 360px;
+    height: 400px;
+    background-color: #704EEA;
+    border-radius: 50px;
+}
+
+.legenda {
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+
+}

@@ -1,0 +1,64 @@
+#containerPlataformaVideo {
+    display: flex; 
+    flex-direction: column;
+    font-family: "DM Sans", sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    margin-top: 80px;
+    margin-bottom:80px;
+    background-color: #FFD25B;
+    border-radius: 50px;
+    margin: 70px;
+}
+
+#containerPlataformaVideo div{
+    padding: 20px;
+}
+
+#primeiroParagrafoPlataformaVideo {
+    padding: 80px;    
+    font-weight: 500;
+    font-size: 64px;
+    text-align: center;
+}
+
+#plataformaVideoSpan1 {
+    color: #704EEA;
+    font-style: italic;
+    font-weight: 400;
+    font-family: DM Sans Display;
+}
+
+
+
+#plataformaVideo {
+    font-size: 16px;
+    width: 802px;
+    height: 96px;
+    color: #0A0430;
+}
+
+#containerPlataformaVideo button{
+    border-radius: 50px;
+    background-color: transparent;
+    color: #ffff;
+    border: 1px solid #6F24E9;
+    padding: 10px 30px;
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 40px;
+    
+}
+
+#containerPlataformaVideo .bola {
+    display: inline-flex;           /* Usar flexbox para centralizar o conteúdo */
+    justify-content: center;        /* Centraliza horizontalmente */
+    align-items: center;            /* Centraliza verticalmente */
+    width: 30px;                   /* Largura do círculo */
+    height: 30px;                  /* Altura do círculo */
+    border-radius: 50%;            /* Faz o círculo */
+    background-color: #6F24E9; 
+    color: white;                  /* Cor do texto dentro da bola */
+    font-size: 24px;               /* Tamanho da fonte */
+    font-family: "DM Sans", sans-serif; /* Fonte utilizada */
+}

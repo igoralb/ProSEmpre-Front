@@ -47,6 +47,8 @@
     padding: 10px 30px;
     font-family: "DM Sans", sans-serif;
     margin-bottom: 40px;
+    display: flex;
+    align-items: center;
     
 }
 
@@ -59,6 +61,9 @@
     border-radius: 50%;            /* Faz o círculo */
     background-color: #6F24E9; 
     color: white;                  /* Cor do texto dentro da bola */
-    font-size: 24px;               /* Tamanho da fonte */
+    font-size: 22px;               /* Tamanho da fonte */
     font-family: "DM Sans", sans-serif; /* Fonte utilizada */
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
 }

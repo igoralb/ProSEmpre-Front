@@ -1,0 +1,26 @@
+#categorias {
+    width: 1160.5px;
+    height: 166px;
+    margin: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 20px;
+    gap: 30px;
+
+}
+
+.tipocategoria {
+    width: 260px;
+    height: 161px;
+
+ 
+
+}
+.icon{
+   margin-bottom: 30px;
+    
+}
+

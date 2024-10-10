@@ -1,0 +1,59 @@
+body{
+    font-family: "DM Sans", sans-serif;
+}
+#containerCardPrincipal {
+    display: flex; 
+    flex-direction: column;
+    font-family: "DM Sans", sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    margin-top: 80px;
+    margin-bottom:80px;
+}
+
+#containerCardPrincipal div{
+    padding: 20px;
+}
+
+#primeiroParagrafo {
+    width: 936px;
+    height: 132px;
+    font-weight: 500;
+    font-size: 64px;
+    text-align: center;
+}
+
+#span1 {
+    color: #704EEA;
+    font-style: italic;
+    font-weight: 400;
+    font-family: DM Sans Display;
+}
+
+#span2 {
+    color: #FFC62F;
+    font-style: italic;
+    font-weight: 400;
+    font-family: DM Sans Display;
+}
+
+#CardPrincipal {
+    padding: 40px;
+    text-align: center;
+    font-size: 16px;
+    width: 802px;
+    height: 160px;
+    color: #0A0430;
+}
+
+#containerCardPrincipal button{
+    border-radius: 50px;
+    background-color: #704EEA;
+    color: #ffff;
+    padding: 10px 30px;
+    border: none;
+    font-family: "DM Sans", sans-serif;
+    
+}
+

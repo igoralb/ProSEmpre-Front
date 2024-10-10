@@ -1,16 +1,17 @@
-#leiaForum {
+#CardVideos {
     margin-top: 80px;
     margin-bottom: 80px;
     display: flex;
     flex-direction: column;
     padding: 20px;
+    
 }
 
-#leiaForum div {
+#CardVideos div {
     padding: 20px;
 }
 
-#pLeiaForum1 {
+#pCardVideos1 {
     font-family: DM Sans;
     font-size: 36px;
     font-weight: 500;
@@ -18,29 +19,15 @@
 
 }
 
-#pLeiaForum1 span {
-    font-family: DM Sans Display;
-    font-style: italic;
-    font-size: 36px;
-    font-weight: 400;
-    color: #704EEA;
-    gap: 30px;
-}
 
-#cardsLeiaForum {
+#cardsCardVideos {
     display: flex;
     flex-direction: row;
     justify-content: center;
 
 }
 
-.fotoLeiaForum img {
-    display: flex;
-    flex-direction: column-reverse;
-    width: 360px;
-    height: 400px;
-    border-radius: 50px;
-}
+
 
 .legenda {
     font-family: DM Sans;
@@ -50,3 +37,23 @@
     text-align: left;
 
 }
+
+.fotoCardVideos {
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px; 
+    height: 220px; 
+    border-radius: 50px;
+    
+}
+
+/* .fotoCardVideos img {
+    background-color: #D9D9D9;
+    width: 360px; 
+    height: 220px;   
+    border-radius: 50px;
+    
+} */
+

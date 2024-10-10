@@ -1,0 +1,87 @@
+#PaisProf {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+#PaisProf div {
+    padding: 20px;
+}
+
+#pPaisProf1 {
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 500;
+
+
+}
+
+/* #pPaisProf1 span {
+    font-family: DM Sans Display;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 400;
+    color: #704EEA;
+    gap: 30px;
+} */
+
+#cardsPaisProf {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+
+.legenda {
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+
+}
+
+.fotoPaisProf {
+    width: 360px; 
+    height: 220px; 
+    border-radius: 50px;
+    
+}
+
+.fotoPaisProf img {
+    width: 360px; 
+    height: 220px;   
+    border-radius: 50px;
+    
+}
+/* mascas para desenhos colorir */
+.fotoPaisProfColorir {
+    width: 360px; 
+    height: 220px; 
+    border-radius: 50px;
+    
+}
+
+.fotoPaisProfColorir::before {
+    content: "";
+    position: absolute;
+    top: 1;
+    left: 1;
+    width: 360px; 
+    height: 220px;
+    background-color: #FFB55540; 
+    border-radius: 50px; /
+   
+}
+
+.fotoPaisProfColorir img {
+    width: 360px; 
+    height: 220px;   
+    border-radius: 50px;
+    
+}
